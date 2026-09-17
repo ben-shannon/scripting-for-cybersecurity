@@ -1,0 +1,6 @@
+cybersecurity CLI Report
+User: Ben
+Host : codespaces-d8d74b
+Directory: /workspaces/scripting-for-cybersecurity/lab02/challenge
+Python:  /home/codespace/.python/current/bin/python3
+Python filenames found:  0
