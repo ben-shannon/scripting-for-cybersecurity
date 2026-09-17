@@ -1,0 +1,9 @@
+current user: codespace
+hostname: codespaces-d8d74b
+current directory: /workspaces/scripting-for-cybersecurity/lab02
+current shell: /bin/bash
+user home directory: /home/codespace
+location of python3: /home/codespace/.python/current/bin/python3
+location of bash: /usr/bin/bash
+number of environment variables: 92
+number od filenames in /usr/bin containing ssh: 7

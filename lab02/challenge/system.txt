@@ -1,0 +1,3 @@
+codespaces-d8d74b
+/bin/bash
+/home/codespace
