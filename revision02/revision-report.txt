@@ -1,1 +1,19 @@
 Labs 3 and 4 Revision Report
+
+Authentication Log Entries: 
+Failed Password Events: 
+Accepted Password Events: 
+Unique Failed Login IPs: 0
+Most Frequent Failed Login IP: 
+
+Web Requests: 
+403 Responses: 
+404 Responses: 
+
+Lab 4 Files: 0
+Lab 4 Directories: 0
+Python Files: 0
+Shell Scripts: 0
+Log Files: 0
+Configuration Files: 0
+Empty Files: 0
