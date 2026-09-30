@@ -1,0 +1,27 @@
+==============================
+   DIGITAL FORENSICS TRIAGE REPORT
+==============================
+Analyst: ben]
+Case Reference: mfm
+Date: Wed Sep 30 11:38:20 UTC 2026
+
+Total Files: 24
+Total Directories: 8
+Python Files: 2
+Shell Scripts: 1
+Log Files: 4
+Configuration Files: 3
+Empty Files: 1
+Archives: 1
+
+Files containing 'admin':
+/workspaces/scripting-for-cybersecurity/lab05/case/logs/auth.log
+/workspaces/scripting-for-cybersecurity/lab05/case/logs/access.log
+/workspaces/scripting-for-cybersecurity/lab05/case/backups/users.old
+/workspaces/scripting-for-cybersecurity/lab05/case/evidence/notes.txt
+/workspaces/scripting-for-cybersecurity/lab05/case/triage-report.txt
+
+Detected file types (evidence folder):
+/workspaces/scripting-for-cybersecurity/lab05/case/lab05/case/evidence/*: cannot open `/workspaces/scripting-for-cybersecurity/lab05/case/lab05/case/evidence/*' (No such file or directory)
+
+Scripts (Python + shell): 3

@@ -1,0 +1,3 @@
+1. none of them differ
+2. if lab04-data was replaced by a new collection tomorrow id change the absolute path for the file and the case directory
+3. its an unknown class
