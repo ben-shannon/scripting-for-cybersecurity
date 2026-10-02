@@ -1,3 +1,26 @@
 1. none of them differ
 2. if lab04-data was replaced by a new collection tomorrow id change the absolute path for the file and the case directory
 3. its an unknown class
+grep "Failed password" case/logs/auth.log |
+awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}' |
+sort | uniq -c | sort -nr | head -n 1
+./top3.sh
+grep "Failed password" ..lab03/lab03-data/auth.log |
+awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}' |
+sort | uniq -c | sort -nr | head -n 3
+grep "Failed password" ..lab03/lab03-data/auth.log |
+awk '{
+for(i=1;i<=NF;i++) {
+if($i=="for") {
+if($(i+1)=="invalid")
+print $(i+2)
+else
+print $(i+1)
+}
+}
+}' |
+sort | uniq -c | sort -nr
+`
+grep invalid ..lab03/lab03-data/auth.log
+./attacker_report.sh case/logs/access.log
+grep BLOCK case/logs/firewall.log
