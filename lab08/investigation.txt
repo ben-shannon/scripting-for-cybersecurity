@@ -1,0 +1,53 @@
+$ ./investigate.sh case/logs/auth.log 198.51.100.77
+=== Investigating '198.51.100.77' in case/logs/auth.log ===
+Occurrences in log: 8
+Failed password events: 8
+Risk level: HIGH
+--- Firewall log (case/logs/firewall.log) ---
+No firewall entries for 198.51.100.77
+--- Threat intel (intel/iocs.txt) ---
+NOT listed in IOC list
+exit code: 0
+
+$ ./investigate.sh case/logs/auth.log 203.0.113.200
+=== Investigating '203.0.113.200' in case/logs/auth.log ===
+Occurrences in log: 5
+Failed password events: 5
+Risk level: MEDIUM
+--- Firewall log (case/logs/firewall.log) ---
+BLOCK 203.0.113.200 -> 10.0.0.30:3389
+--- Threat intel (intel/iocs.txt) ---
+LISTED in IOC list
+exit code: 0
+
+$ ./investigate.sh case/logs/access.log 203.0.113.77
+=== Investigating '203.0.113.77' in case/logs/access.log ===
+Occurrences in log: 12
+Failed password events: 0
+Risk level: LOW
+--- Firewall log (case/logs/firewall.log) ---
+No firewall entries for 203.0.113.77
+--- Threat intel (intel/iocs.txt) ---
+NOT listed in IOC list
+exit code: 0
+
+$ ./investigate.sh case/logs/auth.log admin
+=== Investigating 'admin' in case/logs/auth.log ===
+Occurrences in log: 17
+Failed logins:   17
+Accepted logins: 0
+Account status: UNKNOWN
+exit code: 0
+
+$ ./investigate.sh case/logs/auth.log alice
+=== Investigating 'alice' in case/logs/auth.log ===
+Occurrences in log: 6
+Failed logins:   0
+Accepted logins: 6
+Account status: UNKNOWN
+exit code: 0
+
+$ ./investigate.sh case/logs/missing.log admin
+Error: 'case/logs/missing.log' does not exist.
+exit code: 3
+

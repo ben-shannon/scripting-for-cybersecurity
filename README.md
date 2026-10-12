@@ -9,3 +9,4 @@ This repository contains my practical work for the Scripting for Cybersecurity m
 - Lab 04 - Finding Files and Working with Data
 - Lab 05 - From Commands to Scripts — Shebangs, Variables and Input
 - Lab 06 - Command Substitution, Arguments and Exit Codes
+- Lab 07 - Decisions in Bash — if, elif, else and Comparisons
