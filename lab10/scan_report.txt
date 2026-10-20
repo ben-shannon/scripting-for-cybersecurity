@@ -1,0 +1,1 @@
+TOTAL IOC matches across all logs: 0
